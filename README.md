@@ -9,11 +9,11 @@ A simple tool to perform XOR as a TCP proxy.
 $ ./scramble -help
 Usage of ./scramble:
   -connect string
-    	forward to ip and port
+    	forward to ip and port (default ":8080")
   -key int
     	key to xor the data (default 170)
   -listen string
-    	listen on ip and port (default ":8000")
+    	listen on ip and port (default ":8081")
 ```
 
 ## Use with a SOCKS proxy
